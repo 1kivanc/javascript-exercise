@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Ubuntu:wght@700&display=swap');
+*{
+    font-family: 'PT Serif', serif;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    background-color: #00b4d8;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    min-width: 400px;
+    background-color: #fff;
+    border-radius: 10px ;
+    padding: 20px;
+}.content{
+    margin-top: 20px;
+}.inputs{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}.inputs .inputText{
+    width: 56px;
+    height: 57px;
+    margin: 5px;
+    border:1px solid grey;
+    border-radius:5px ;
+    font-size: 2rem;
+    text-align: center;
+    color: #70e000;
+    text-transform: uppercase;
+}
+.details{
+    margin-top: 20px;
+}
+.details p{
+
+    padding: 10px 20px;
+}.hint span{
+    color: green;
+}.inputs input:first-child{
+    margin-left: 0px;
+}.images{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    width: 200px;
+}
+.image img{
+    width: 100%;
+}.content .retry-button{
+    width: 100%;
+    padding: 15px 0;
+    border-radius: 5px;
+    border:none;
+    background-color: #00b4d8;
+    font-size: 1.2rem;
+    cursor: pointer;
+}.content .documentInput{
+    opacity: 0;
+    z-index: -2;
+    position: absolute;
+}.wrong-letter span{
+    color: red;
+}.gameover{
+    background-color: red !important;
+}
