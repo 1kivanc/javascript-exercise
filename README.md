@@ -8,3 +8,11 @@
 [live demo](https://foundtheword.netlify.app/)
 
 ![resim](/GuessTheWord/view.png)
+
+## Sticky note
+
+localstorage is used in this project
+
+[live demo](https://sticky-noteapp.netlify.app/)
+
+![resim](/NoteApp/view.png)
