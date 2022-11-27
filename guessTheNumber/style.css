@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #f3f3f3 !important; 
+}
+
+.container{
+    
+}
+
+.content{
+    width: 50%;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+}
+.row{
+    margin: 20px 10px;
+}
+.row h2{
+    font-size: 40px;
+    letter-spacing: 1px;
+    text-align: center;
+}

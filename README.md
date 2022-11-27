@@ -20,3 +20,7 @@ localstorage is used in this project
 ## user registration form
 
 ![resim](/userRegisterForm/view.png)
+
+## guess the number 
+
+![resim](/guessTheNumber/view.png)
