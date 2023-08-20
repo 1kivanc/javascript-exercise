@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <div id="chooseGameMode">
+        <h1 style="color: black;">Memory Game</h1>
+        <h1 style="color: black;">Choose Game Mode</h1>
+        <button class="btn" onclick="choose(this.value)" value="easy">Easy</button>
+        <button class="btn" onclick="choose(this.value)" value="normal">Normal</button>
+        <button class="btn" onclick="choose(this.value)" value="hard">Hard</button>
+    </div>
+    
+    <h2 id="mistakes">Mistakes:0</h2>
+    <div id="canvas"></div>
+
+
+    
+    <script src="script.js"></script>
+</body>
+</html>

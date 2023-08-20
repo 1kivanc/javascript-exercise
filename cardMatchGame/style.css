@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@500&family=Roboto:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+  
+    font-family: 'Roboto', sans-serif;
+
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background-color: black;
+    color: white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content:center;
+   overflow: hidden;
+}
+
+h2{
+    margin-top: 200px;
+    
+}
+h2,span{
+    display: none;
+}
+
+
+#chooseGameMode{
+    width: 400px;
+    height: 400px;
+    background-color: #F7F7F7;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding-top:50px;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    z-index: 9999;
+}
+#canvas{
+    width: 835px;
+    height:580px ;
+    display: none;
+    flex-wrap: wrap;
+    background-color: cornsilk;
+    border: 15px solid gray;
+    margin: 150px auto;
+}
+
+.card{
+    height: 130px;
+    width: 95;
+    margin: 2px;
+}
+.btn{
+    width: 80%;
+    height: 50px;
+    border: none;
+    font-size: 1.5rem;
+    text-align: center;
+    
+}.btn:hover{
+    background-color: #868686 ;
+}
+.flip-vertical-left {
+	-webkit-animation: flip-vertical-left 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+	        animation: flip-vertical-left 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
+
+@-webkit-keyframes flip-vertical-left {
+    0% {
+      -webkit-transform: rotateY(0);
+              transform: rotateY(0);
+    }
+    100% {
+      -webkit-transform: rotateY(-180deg);
+              transform: rotateY(-180deg);
+    }
+  }
+  @keyframes flip-vertical-left {
+    0% {
+      -webkit-transform: rotateY(0);
+              transform: rotateY(0);
+    }
+    100% {
+      -webkit-transform: rotateY(-180deg);
+              transform: rotateY(-180deg);
+    }
+  }
+  
